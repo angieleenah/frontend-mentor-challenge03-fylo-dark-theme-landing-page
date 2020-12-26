@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url("https://fonts.google.com/specimen/Raleway");
+@import url("https://fonts.google.com/specimen/Open+Sans");
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 0.875rem;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(218, 28%, 13%);
+}
+
+h1 {
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+
+.container {
+  margin: 1.25rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+ul {
+  display: flex;
+  flex-shrink: initial;
+  align-self: flex-end;
+}
+li {
+  padding-left: 1.25rem;
+}
+.nav-links-elements {
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+}
+
+a:hover,
+a:active,
+a:focus {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: hsl(176, 68%, 64%);
+}
+
+
+.link-process a {
+    color: hsl(176, 68%, 64%);
+}
+
+.link-process:hover a {
+    color:hsl(198, 60%, 50%);
+}
+
+.pic {
+    border-radius: 50%;
+}
