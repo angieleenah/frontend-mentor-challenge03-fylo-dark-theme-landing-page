@@ -18,6 +18,7 @@ ul {
 }
 
 body {
+  margin: 0;
   font-size: 0.875rem;
   font-family: "Open Sans", Arial, sans-serif;
   text-align: center;
@@ -29,8 +30,17 @@ h1 {
   font-family: "Raleway", Arial, sans-serif;
 }
 
+
 .container {
   margin: 1.25rem;
+}
+
+.intro {
+  margin: 3rem 1.5rem;
+}
+
+.intro-content {
+  margin-bottom: 2rem;
 }
 
 nav {
@@ -70,7 +80,33 @@ a:focus {
   color: hsl(176, 68%, 64%);
 }
 
+.content {
+  margin: 7.5rem 0;
+}
+
+.row {
+  margin: 3rem 0;
+}
+
+.main-image {
+  width: 100%;
+}
+
+article {
+  display: block;
+  margin: 3rem 0;
+  text-align: left;
+}
+
+.link-process {
+  display: flex;
+  align-items: center;
+}
+
 .link-process a {
+  align-items: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid  hsl(176, 68%, 64%);
   color: hsl(176, 68%, 64%);
 }
 
@@ -78,12 +114,43 @@ a:focus {
   color: hsl(198, 60%, 50%);
 }
 
+
 .pic {
+  margin-right: 1rem;
   border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
+
+.split {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin:0;
+  font-size: 0.8125;
+  font-weight: 700;
+}
+.job-position {
+  margin: 0.25rem 0 0 0;
+  font-size:0.75rem;
+  font-weight: 400;
+}
+
+blockquote {
+  max-width: 22.5rem;
+  margin: 2rem 1.5rem;
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  text-align: left;
+  background-color: hsl(219, 30%, 18%);
+} 
 /* TO-DO: add shadow to email-sign-up */
 .email-sign-up {
+  max-width:45rem;
   margin: 3.5rem 0;
   padding: 1.5rem;
   border-radius: 0.625rem;
@@ -103,6 +170,7 @@ input {
 }
 
 button {
+  width: 100%;
   cursor: pointer;
   height: 2.5rem;
   border: none;
@@ -111,6 +179,7 @@ button {
   background: linear-gradient(90deg, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 100%); 
   color: hsl(0, 0%, 100%);
 }
+
 
 ion-icon {
   font-size: 24px;
